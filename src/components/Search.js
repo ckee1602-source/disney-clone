@@ -26,6 +26,7 @@ const Search = () => {
   const [allMovies, setAllMovies] = useState([]);
   const [filteredMovies, setFilteredMovies] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     const loadMovies = async () => {
@@ -44,22 +45,42 @@ const Search = () => {
   }, []);
 
   useEffect(() => {
-    if (selectedGenre === "All") {
-      setFilteredMovies(allMovies);
-    } else {
-      setFilteredMovies(
-        allMovies.filter(
-          (movie) =>
-            typeof movie.genre === "string" &&
-            movie.genre.toLowerCase() === selectedGenre.toLowerCase()
-        )
+    let filtered = allMovies;
+
+    if (selectedGenre !== "All") {
+      filtered = filtered.filter(
+        (movie) =>
+          typeof movie.genre === "string" &&
+          movie.genre.toLowerCase() === selectedGenre.toLowerCase()
       );
     }
-  }, [selectedGenre, allMovies]);
+
+    if (searchTerm.trim()) {
+      const term = searchTerm.trim().toLowerCase();
+      filtered = filtered.filter(
+        (movie) =>
+          (typeof movie.title === "string" &&
+            movie.title.toLowerCase().includes(term)) ||
+          (typeof movie.genre === "string" &&
+            movie.genre.toLowerCase().includes(term))
+      );
+    }
+
+    setFilteredMovies(filtered);
+  }, [selectedGenre, allMovies, searchTerm]);
 
   return (
     <Container>
       <h2>Select your favorite movie category:</h2>
+
+      <SearchContainer>
+        <input
+          type="text"
+          placeholder="Search"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+      </SearchContainer>
 
       <DropdownContainer>
         <select
@@ -108,19 +129,6 @@ const Container = styled.div`
   }
 `;
 
-const DropdownContainer = styled.div`
-  margin-bottom: 20px;
-
-  select {
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    font-size: 16px;
-    background: #333;
-    color: white;
-    cursor: pointer;
-  }
-`;
 
 const MovieGrid = styled.div`
   display: grid;
@@ -154,5 +162,48 @@ const MovieWrap = styled.div`
   &:hover {
     transform: scale(1.05);
     border-color: rgba(249, 249, 249, 0.8);
+  }
+`;
+
+const DropdownContainer = styled.div`
+  margin-bottom: 20px;
+
+  select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+  }
+`;
+
+const SearchContainer = styled.div`
+  margin: 0 20px 20px 20px;
+  position: relative;
+
+  input {
+    padding: 15px 60px 15px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background: #333;
+    color: white;
+    width: 100%;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    background-image: url("/images/search-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
   }
 `;

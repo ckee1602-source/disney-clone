@@ -1,28 +1,37 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import styled from "styled-components";
-import db from "../firebase";
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "../firebase";
+import { useDispatch } from "react-redux";
+import { addToWatchlist } from "../features/movie/movieSlice";
 import Recommends from "./Recommends";
- // Import Recommendations Component
+
 const Detail = () => {
   const { id } = useParams();
   const [detailData, setDetailData] = useState({});
   const [showTrailer, setShowTrailer] = useState(false);
+  const [showAddedPopup, setShowAddedPopup] = useState(false);
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   useEffect(() => {
-    db.collection("movies")
-      .doc(id)
-      .get()
-      .then((doc) => {
-        if (doc.exists) {
-          setDetailData(doc.data());
+    const fetchMovie = async () => {
+      try {
+        const docRef = doc(db, "movies", id);
+        const docSnap = await getDoc(docRef);
+
+        if (docSnap.exists()) {
+          setDetailData({ id: docSnap.id, ...docSnap.data() });
         } else {
           console.log("No such document in Firebase 🔥");
         }
-      })
-      .catch((error) => {
+      } catch (error) {
         console.log("Error getting document:", error);
-      });
+      }
+    };
+
+    fetchMovie();
   }, [id]);
 
   return (
@@ -41,11 +50,15 @@ const Detail = () => {
             <img src="/images/play-icon-black.png" alt="" />
             <span>Play</span>
           </Player>
+
           <TrailerButton
-            
             onClick={() => {
               if (detailData.trailer) {
-                window.open(detailData.trailer, "_blank", "noopener,noreferrer"); // Open YouTube trailer in a new tab
+                window.open(
+                  detailData.trailer,
+                  "_blank",
+                  "noopener,noreferrer"
+                );
               } else {
                 alert("Trailer not available");
               }
@@ -54,23 +67,41 @@ const Detail = () => {
             <img src="/images/play-icon-white.png" alt="Play Icon" />
             <span>Trailer</span>
           </TrailerButton>
-          <AddList>
-            <span />
-            <span />
-          </AddList>
+
+          <AddListWrapper>
+            <AddList onClick={() => {
+              dispatch(addToWatchlist(detailData));
+              setShowAddedPopup(true);
+              setTimeout(() => {
+                setShowAddedPopup(false);
+                navigate('/watchlist');
+              }, 5000); // Show popup for 5 seconds
+            }}>
+              <span />
+              <span />
+            </AddList>
+
+            {showAddedPopup && (
+              <AddedPopup>
+                <PopupContent>
+                  <CheckIcon>✓</CheckIcon>
+                  <PopupText>Added to Watchlist!</PopupText>
+                </PopupContent>
+              </AddedPopup>
+            )}
+          </AddListWrapper>
+
           <GroupWatch>
             <div>
               <img src="/images/group-icon.png" alt="" />
             </div>
           </GroupWatch>
-          
         </Controls>
 
         <SubTitle>{detailData.subTitle}</SubTitle>
         <Description>{detailData.description}</Description>
       </ContentMeta>
 
-      {/* Show Trailer Modal if showTrailer is true */}
       {showTrailer && (
         <TrailerModal>
           <CloseButton onClick={() => setShowTrailer(false)}>X</CloseButton>
@@ -81,17 +112,17 @@ const Detail = () => {
             title="Trailer"
             allow="autoplay; encrypted-media"
             allowFullScreen
-          ></iframe>
+          />
         </TrailerModal>
       )}
 
-      {/* Show Recommended Movies Based on Genre */}
       {detailData.genre && <Recommends genre={detailData.genre} />}
     </Container>
   );
 };
 
 export default Detail;
+
 
 /* Styled Components */
 const Container = styled.div`
@@ -203,8 +234,12 @@ const CloseButton = styled.button`
   padding: 5px 10px;
   border-radius: 50%;
 `;
-const AddList = styled.div`
+const AddListWrapper = styled.div`
+  position: relative;
   margin-right: 16px;
+`;
+
+const AddList = styled.div`
   height: 44px;
   width: 44px;
   display: flex;
@@ -267,4 +302,38 @@ const Description = styled.div`
   font-size: 20px;
   padding: 16px 0px;
   color: rgb(249, 249, 249);
+`;
+
+const AddedPopup = styled.div`
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 6px;
+  padding: 6px 10px;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  margin-top: 8px;
+`;
+
+const PopupContent = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 6px;
+`;
+
+const CheckIcon = styled.div`
+  font-size: 16px;
+  color: #00ff00;
+`;
+
+const PopupText = styled.div`
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
 `;

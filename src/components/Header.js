@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { auth, provider } from "../firebase";
 import { signInWithPopup, signOut } from "firebase/auth";
 
@@ -17,6 +17,7 @@ import {
 const Header = (props) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const location = useLocation();
   const userName = useSelector(selectUserName);
   const userPhoto = useSelector(selectUserPhoto);
   const [showSearch, setShowSearch] = useState(false); // Manage search bar visibility
@@ -62,7 +63,11 @@ const Header = (props) => {
   };
 
   const handleSearchToggle = () => {
-    setShowSearch(!showSearch);
+    if (location.pathname === '/home') {
+      navigate('/search');
+    } else {
+      setShowSearch(!showSearch);
+    }
   };
 
   const handleSearch = (e) => {
@@ -94,8 +99,7 @@ const Header = (props) => {
               <img src="/images/search-icon.svg" alt="SEARCH" />
               <span>SEARCH</span>
             </a>
-             {/* ✅ Updated Watchlist Icon to be Clickable */}
-             <a onClick={goToWatchlist} style={{ cursor: "pointer" }}>
+            <a onClick={goToWatchlist} style={{ cursor: "pointer" }}>
               <img src="/images/watchlist-icon.svg" alt="WATCHLIST" />
               <span>WATCHLIST</span>
             </a>
@@ -114,7 +118,7 @@ const Header = (props) => {
             </a>
           </NavMenu>
 
-          {showSearch && (
+          {showSearch && location.pathname !== '/home' && location.pathname !== '/search' && (
             <SearchBar>
               <form onSubmit={handleSearch}>
                 <SearchInput

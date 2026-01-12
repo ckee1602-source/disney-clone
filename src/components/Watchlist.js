@@ -1,31 +1,20 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { selectRecommend, selectNewDisney, selectOriginal, selectTrending } from "../features/movie/movieSlice";
+import { selectWatchlist } from "../features/movie/movieSlice";
 
 const Watchlist = () => {
-  // Fetching movie lists separately
-  const recommendMovies = useSelector(selectRecommend);
-  const newDisneyMovies = useSelector(selectNewDisney);
-  const originalMovies = useSelector(selectOriginal);
-  const trendingMovies = useSelector(selectTrending);
+  // Fetching watchlist movies
+  const watchlistMovies = useSelector(selectWatchlist);
 
-  // Merging all movies into a single array
-  const movies = [
-    ...(recommendMovies || []),
-    ...(newDisneyMovies || []),
-    ...(originalMovies || []),
-    ...(trendingMovies || []),
-  ];
-
-  console.log(movies, ":🛢️"); // Debugging
+  console.log(watchlistMovies, ":🛢️"); // Debugging
 
   return (
     <Container>
       <h4>Your Watchlist</h4>
       <Content>
-        {movies.length > 0 ? (
-          movies.map((movie, key) => (
+        {watchlistMovies.length > 0 ? (
+          watchlistMovies.map((movie, key) => (
             <Wrap key={movie.id || key}>
               <Link to={`/detail/${movie.id}`}>
                 <img src={movie.cardImg} alt={movie.title} />
@@ -41,7 +30,7 @@ const Watchlist = () => {
 };
 
 const Container = styled.div`
-  padding: 0 0 26px;
+  padding: 30px 0 26px;
 `;
 
 const Content = styled.div`
@@ -64,6 +53,7 @@ const Wrap = styled.div`
   position: relative;
   transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
   border: 3px solid rgba(249, 249, 249, 0.1);
+  margin-left: 20px;
 
   img {
     inset: 0px;
