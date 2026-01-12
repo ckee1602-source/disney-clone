@@ -1,0 +1,333 @@
+{
+    "movies": {
+        "1" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/49B92C046117E89BC9243A68EE277A3B30D551D4599F23C10BF0B8C1E90AEFB6/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/87F1DCF36049558159913ADFD18A800DE1121771540033EC3A7651B8FE154CEB/scale?width=400&aspectRatio=1.78&format=jpeg",
+            "description": "When 11-year-old Riley moves to a new city, her Emotions team up to help her through the transition. Joy, Fear, Anger, Disgust and Sadness work together, but when Joy and Sadness get lost, they must journey through unfamiliar places to get back home.",
+            "subTitle": "2015 • 1h 35m • Coming of Age, Family, Animation",
+            "title": "Inside Out",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5C647DF3FFBFA343CFEA84AC715148F25F9E86F398B408010CC403E7654FB908/scale?width=1440&aspectRatio=1.78",
+            "tybackgroundImgpe": "recommend",
+            "trailer":"https://www.youtube.com/watch?v=yRUAzGQ3nSY",
+            "genre":["Action","Cartoon","Family","Animation"]
+        },
+        "2" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4E9E81584305009D6385F6178D4B6930E97CD6EC4A3B53C818400DEF778FFA9A/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B983FF22BA64B6E19E0D3267280819B26758CFB765E8BED1099D11E320612953/scale?width=400&aspectRatio=1.78&format=jpeg",
+            "description": "Garfield is adopted by a greedy Lord with nefarious plans to open up his estate as a hunting ground.",
+            "subTitle": "2006 • 1h 19m • Family, Comedy, Kids",
+            "title": "A tail of two kitties",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/50B933E83609BEEFEDFA177A6D96DBFA7804C14F70A0B5AB314E892E65498ACF/scale?width=1440&aspectRatio=1.78",
+            "type": "new",
+            "trailer":"https://www.youtube.com/watch?v=BLTnQko_Lz4",
+            "genre":["Action","Family","Comedy","kids"]
+        },
+        "3" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4F39B7E16726ECF419DD7C49E011DD95099AA20A962B0B10AA1881A70661CE45/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/706C68FF1CEA5A9C2AE0608892C2DF79E4AC1F0DDB4BFF7FE6DAFC36DAFC0286/scale?width=400&aspectRatio=1.78&format=jpeg",
+            "description": "A Chinese mom who’s sad when her grown son leaves home gets another chance at motherhood when one of her dumplings springs to life. But she finds that nothing stays cute and small forever.",
+            "subTitle": "2018 • 7m • Family, Fantasy, Kids, Animation",
+            "title": "Bao",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7AEE1F05D10FC37C873176AAA26F777FC1B71E7A6563F36C6B1B497CAB1CEC2/scale?width=1440&aspectRatio=1.78",
+            "type": "recommend",
+            "trailer":"https://www.youtube.com/watch?v=qdvLf33lNrk",
+            "genre":["Animation","Kids","Family"]
+        },
+        "4" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FA1548A6B82C9991B1D38DF251A388FEA2483904510FBC73E150F67F7BDE38C0/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/0ECD36DD35658155915685271440833C29ED87E788CF8AE111AA6BCA6B939C37/scale?width=400&aspectRatio=1.78&format=jpeg",
+            "description": "When the kingdom's most wanted bandit is taken hostage by Rapunzel — a teen with 70 feet of golden hair who's looking to escape the tower where she's been locked away for years — the unlikely duo sets off on a hair-raising escapade.",
+            "subTitle": "2010 • 1h 40m • Family, Fantasy, Animation, Action-Adventure, Musical",
+            "title": "Tangled",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F70235E3463A6F246EB462ED5379F9D41D6318E80098BD40900E7AFC1C7D932D/scale?width=1440&aspectRatio=1.78",
+            "type": "trending",
+            "trailer":"https://www.youtube.com/watch?v=2f516ZLyC6U",
+            "genre":["Action","Cartoon","Family","Adventure"]
+        },
+        "5" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/56EEBB17CC25C9FE16E334C34EF96BF7D91EC9BA3B438F88FB24E1C2AE785E03/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E486A02FA7B60669E77958D4FAE567AA5C9C57344006E1D1ADFC080719545166/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals",
+            "description": "Jamie Foxx leads an all-star cast in this hilarious, heart-filled adventure. Pixar’s 'Soul' introduces Joe, who lands the gig of his life at the best jazz club in town. But one misstep lands Joe in a fantastical place: The Great Before. There, he teams up with soul 22 (Tina Fey), and together they find the answers to some of life’s biggest questions.",
+            "subTitle": "2020 • 1h 49m • Family, Comedy, Fantasy, Animation, Music",
+            "title": "Soul",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E837DDE901CD036DD87A00F2D63E2F2458FAA798E62BE91F973AECCEA313A67E/scale?width=1440&aspectRatio=1.78",
+            "type": "original",
+            "trailer":"https://www.youtube.com/watch?v=xOsLIiBStEs",
+            "genre":["Cartoon","Family","Comedy","Fantasy","Music"]
+        },
+        "6" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/AAC4808815AE5721A6AAB372DD14B8CE2E7E9EFF3A27942EF2B6B45EBF4E65CB/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/501783804F435A386DBC4736F529A8EF664B1817CCB0B552E52D825B85B0A97B/scale?width=400&aspectRatio=1.78&format=jpeg",
+            "description": "Moana sets sail on a daring mission to save her people. Along the way, she meets the mighty demigod Maui–together they cross the ocean on a fun-filled, action-packed voyage from Walt Disney Animation Studios.",
+            "subTitle": "2016 • 1h 47m • Family, Fantasy, Animation, Action-Adventure, Musical",
+            "title": "Moana",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9562874BAB22B22A698368819B9EBF30FEB0291543552EB2416A5A61A73F63F4/scale?width=1440&aspectRatio=1.78",
+            "type": "trending",
+            "trailer":"https://www.youtube.com/watch?v=LKFuXETZUsI",
+            "genre":["Adventure","Animation","Family","Comedy","Fantasy"]
+        
+        },
+        "7" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B409C2A425D58C32D822EB633C7CAE3DC910DC2FC62D2B1807A0BB092C531E9A/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C0A883EAB54DDDC924018D08CF4555EE72B3E9A8C214BDADF29CB82B5E2275D7/scale?width=400&aspectRatio=1.78&format=jpeg",
+            "description": "While Helen is called on to lead a campaign to bring back the Supers, Bob navigates the day-to-day heroics of “normal” life at home with Violet, Dash and Jack-Jack, whose superpowers are about to be discovered. Their mission is derailed, however, when a new villain emerges with a brilliant and dangerous plot that threatens everything. But with Frozone by their side, the Parrs can take on anything.",
+            "subTitle": "2018 • 1h 58m • Science Fiction, Family, Animation, Action-Adventure",
+            "title": "Incredibles 2",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2041CE26663867FC4EF20377B8625BD629E619452E23BCDB1AB259DD475C2EA1/scale?width=1440&aspectRatio=1.78",
+            "type": "recommend",
+            "trailer":"https://www.youtube.com/watch?v=i5qOzqD9Rms",
+            "genre":"animaton"
+        },
+        "8" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D53D1F5D357587A8D09067AB09FFC7096F837CBAAE02BDC3C0E75814471A1E36/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CC08686E87BDB2D83A46C9608CB2F43018381A82608C380649351A00ED0D2919/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals",
+            "description": "ASSEMBLED is an immersive series of documentary-style specials examining the creation of Marvel Studios’ thrilling new shows and theatrical releases.",
+            "subTitle": "2021 • 1 Season • Docuseries, Anthology",
+            "title": "Assembled",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/37D80C5D1AB0BA65C63588311EC60A07342F60F91D402C28B8E1137AF6A30549/scale?width=1440&aspectRatio=1.78",
+            "type": "original",
+            "trailer":"https://www.youtube.com/watch?v=pLK-L_bzOjE",
+            "genre":["Adventure","Animation","Family","Comedy","Fantasy"]
+        
+        },
+        "9" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2A509165105A09F9F533E2008B143BCF38D6A5859D0EBB40CCA388772005CD94/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A13BEC78ACF76FC91A94A1595A62A42CC26DFC6259332C74E061ADA379024E5C/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals",
+            "description": "A young rabbit embarks on a journey to dig the burrow of her dreams, despite not having a clue what she’s doing. Rather than reveal to her neighbors her imperfections, she digs herself deeper and deeper into trouble. After hitting (bed)rock bottom, she learns there is no shame in asking for help.",
+            "subTitle": "2020 • 6m • Family, Animation",
+            "title": "Burrow",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DD8BBA864E290FBC03A244A488FFC8DC8365FBF2F95A122B1D57BF3772D717FD/scale?width=1440&aspectRatio=1.78",
+            "type": "original",
+            "trailer":"https://www.youtube.com/watch?v=apx1aUP3MqA",
+            "genre":["Adventure","Animation","Family","Comedy","Fantasy"]
+        },
+        "10" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/223DAE104BE1175F374C4AACAC0EB5B8B0DB9C49839AA2E10085533DDFE07A8E/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6EA416AD3B15FCC1BADC817A932A57FFF707556DB2233FFCB4CFEB7C8EEDE23C/scale?width=400&aspectRatio=1.78&format=jpeg",
+            "description": "This animated comedy focuses on the eponymous family in the town of Springfield. The head of the Simpson family, Homer, is not a typical family man. A nuclear-plant employee, he does his best to lead his family but often finds that they are leading him. The family includes loving, blue-haired matriarch Marge, troublemaking son Bart, overachieving daughter Lisa and baby Maggie.",
+            "subTitle": "1989 - 2019 • 31 Seasons • Comedy, Animation",
+            "title": "The Simpsons",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/47A6FB38D95B3A5EF5583C9EED0B698ED2992CBA4AC7222DD3269DC92DFA03A6/scale?width=1440&aspectRatio=1.78",
+            "type": "trending",
+            "trailer":"https://www.youtube.com/watch?v=RCnqEOJ_afg",
+            "genre":["Adventure","Animation","Family","Comedy","Fantasy"]
+        },
+        "11" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F6CDB6C0EB2D77EB19BCADA31F85066E001A1F61FA68F4AC3356A73FE076477F/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F8D1A6FD00ED479CC5E2E5C3E85F10EB05550748BD3C0FE76756614071968541/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals",
+            "description": "Marvel Studios LEGENDS traces Wanda Maximoff’s evolution from an adversary of The Avengers to a powerful ally, and highlights one special relationship destined to shape her future in unexpected ways…",
+            "subTitle": "2021 • 1 Season • Science Fiction, Fantasy, Action-Adventure",
+            "title": "Legends",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DDFF0FDF457E092EE53149CE7DB5BD14CB97E27B92D2D087E7C687B4E3073DE2/scale?width=1440&aspectRatio=1.78",
+            "type": "original",
+            "trailer":"https://www.youtube.com/watch?v=lWQF6F81kbY",
+            "genre":["Adventure","Animation","Family","Comedy","Fantasy"]
+        },
+        "12" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/09A0617D43282F1A4FA1A97DF6159B4263A8DEB9679A007B61D5E5D6E5D0A2DD/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1E0501AFBAFCA1ABB5D31DBA7D1A913B2A35D70FD3DFD804939B71901577161D/scale?width=400&aspectRatio=1.78&format=jpeg",
+            "description": "Watch with Premier Access at the same time it's in open theaters and before it's available to all Disney+ subscribers on June 4, 2021.",
+            "subTitle": "2021 • 1h 52m • Family, Fantasy, Animation, Action-Adventure",
+            "title": "Raya",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E7D8EFFDD30B2A0E205DDD9929207439B21E7595709769F2A23C50457664FFB2/scale?width=1440&aspectRatio=1.78",
+            "type": "new",
+            "trailer":"https://www.youtube.com/watch?v=1VIZ89FEjYI",
+            "genre":["Adventure","Animation","Family","Comedy","Fantasy"]
+        },
+        "13" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/09DAD6A5DAECB6BA9E329FFA896B18978FE4AD5540C070D7973EE53357DD4D24/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/01666FAA085FF29B709DB13975E563E5E047DAAFF7D8F331201CB73F3C30027E/scale?width=400&aspectRatio=1.78&format=jpeg",
+            "description": "When Bob Parr visits designer Edna Mode for help with his high-energy toddler, she pulls an all-nighter designing a supersuit to harness Jack-Jack’s seemingly limitless powers.",
+            "subTitle": "2018 • 7m • Family, Comedy, Animation",
+            "title": "Auntie EDNA",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A31BE6502DC7A3A01DAF58DF7E91AB6FF598A078C8FA88A1DB2D7B7E25439464/scale?width=1440&aspectRatio=1.78",
+            "type": "recommend",
+            "trailer":"https://www.youtube.com/watch?v=PtXD9yFjHIA",
+            "genre":["Adventure","Animation","Family","Comedy","Fantasy"]
+        },
+        "14" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6FF2B403436E6558C08FB44B40AE334A9172FA293A8325940E8E7FF7F696E4D3/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/509E4D9F0BF98A9DC4CDD38954380782F6AB2664E503CC7652A37D18D06666BF/scale?width=400&aspectRatio=1.78&format=jpeg",
+            "description": "Mickey entertains preschoolers by inviting them to join him and his friends for a date at the Clubhouse. Using early math learning and problem solving skills, he leads kids on an interactive adventure of learning and fun.",
+            "subTitle": "2006 - 2013 • 5 Seasons • Kids, Animation",
+            "title": "Mickey mouse",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4FF3FCD567F0263430DFC33B9489CE2799AE33B50AD553DE65F03B3EA2E19828/scale?width=1440&aspectRatio=1.78",
+            "type": "trending",
+            "trailer":"https://www.youtube.com/watch?v=ocYDDO_04lQ",
+            "genre":["Kids","Animation","Family","Comedy","Fantasy"]
+        },
+        "15" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/456A711C19899C881600F6247705E5253EB18C2471D75E5281E1FF6ACB6D2FBA/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/341AE85B6C1423B9042B5F2E786645EE551B9D546C3D263B220A4727617FD2B8/badging?width=400&aspectRatio=1.78&format=jpeg&label=originals",
+            "description": "Marvel Studios’ “The Falcon and The Winter Soldier” stars Anthony Mackie as Sam Wilson aka The Falcon, and Sebastian Stan as Bucky Barnes aka The Winter Soldier. The pair, who came together in the final moments of “Avengers: Endgame,” team up on a global adventure that tests their abilities—and their patience.",
+            "subTitle": "2021 • 1 Season • Science Fiction, Action-Adventure, Buddy",
+            "title": "The falcon and the winter soldier",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4A67A42FB16607DAE7E22266D3F00181965178ED1884047C2D982EE7D89D3554/scale?width=1440&aspectRatio=1.78",
+            "type": "new",
+            "trailer":"https://www.youtube.com/watch?v=ojGHE581lsM",
+            "genre":["Adventure","Animation","Family","Comedy","Fantasy"]
+        },
+        "16" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/28F85D4A1F7CA135B7B20B3EDB42EDA73196C2A71C52C5400A6C2285F8E071BE/scale?width=1440&aspectRatio=1.78&format=jpeg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4B32D8CB7C0C358E9FF348FB0338AD13F9A5836808E9EF5FADD9DBDE52FC3CAD/scale?width=400&aspectRatio=1.78&format=jpeg",
+            "description": "J-Pop band Perfume is featured in this original music and documentary series 'Disney’s My Music Story.' The show features Perfume's life stories, passion for music, Disney memories, and more.",
+            "subTitle": "2019 • 53m • Documentary, Biographical, Music",
+            "title": "My music story",
+            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/97BB36F8B9FC053F561894DD7B1C42C4FD20E63560F481CBCB3B9D3600CFCA3B/scale?width=1440&aspectRatio=1.78",
+            "type": "new",
+            "trailer":"https://www.youtube.com/watch?v=YGehvENK74o",
+            "genre":["Music","Family","Documentary"]
+        },
+        "17" :{
+            "backgroundImg": "https://i.pinimg.com/736x/9a/6c/ad/9a6cad4a7d66433ff72a529f07417c85.jpg",
+            "cardImg": "https://i.ytimg.com/vi/qV0PIc5rjPA/hqdefault.jpg",
+            "description": "Shinchan is a mischievous and funny five-year-old boy known for his cheeky behavior and hilarious antics. He loves playing pranks, teasing his parents, and causing trouble at school. Despite his mischief, he has a lovable and innocent charm that makes him endearing. He enjoys watching superhero shows, eating snacks, and annoying his mom, Misae. His adventures with his friends and family make for a fun-filled and entertaining series.",
+            "subTitle": "2021 • 1 Season • Science Fiction, Action-Adventure, Buddy",
+            "title": "Shinchan",
+            "titleImg": "",
+            "type": "recommend",
+            "genre":"Comedy",
+            "trailer":"https://youtu.be/eukNMThp0S4"
+        },
+        "18" :{
+            "backgroundImg": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/9400/1715414139400-h",
+            "cardImg": "https://i.pinimg.com/736x/ed/96/7e/ed967ebc66435c0d56a0f34e93221702.jpg",
+            "description": "Doremon is a popular Japanese animated character, a robotic cat from the future, sent to the past to help a young boy named Nobita Nobi. He is blue, round, and has a bell on his collar, which gives him the ability to use gadgets from his pocket. Despite being robotic, Doraemon is kind-hearted and often acts as a guardian for Nobita, offering advice and solving problems. He is known for his humorous antics and occasional frustration with Nobita’s lazy and reckless behavior. Doraemon’s adventures often revolve around using futuristic gadgets to navigate everyday situations, making it a beloved series worldwide.",
+            "subTitle": "1979 • 24m • Animation, Adventure, Family",
+            "title": "",
+            "titleImg": "",
+            "type": "recommend",
+            "genre":"Comedy",
+            "trailer":"https://youtu.be/-jtfhn3DxWg"
+        },
+        "19" :{
+            "backgroundImg": "https://pbs.twimg.com/media/DuLcjxBWwAEi_BS.jpg",
+            "cardImg": "https://images.thedirect.com/media/article_full/dsworkingtitle_oNg6GNo_fzviv9u_nmH0Ebb_gAC7AvC_RETfcUp_4yKRypq_m7nibxR_CiCt_OntvAlc.jpg",
+            "description": "A brilliant neurosurgeon, Dr. Stephen Strange, loses his career after a car accident. Seeking healing, he discovers the mystical arts at Kamar-Taj. As he learns to bend reality and wield powerful magic, he must protect Earth from dark forces and embrace his role as the Sorcerer Supreme.",
+            "subTitle": "2016 • 1h 55m • Action, Adventure, Fantasy",
+            "title": "",
+            "titleImg": "",
+            "type": "recommend",
+            "genre":"Action",
+            "trailer":"https://youtu.be/Lt-U_t2pUHI"
+        },
+        "20" :{
+            "backgroundImg": "https://static1.srcdn.com/wordpress/wp-content/uploads/2018/04/Marvel-Avengers-4-title.jpg",
+            "cardImg": "https://static1.srcdn.com/wordpress/wp-content/uploads/2018/04/Avengers-4-title.jpg",
+            "description": " Earth's mightiest heroes, including Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye, unite to stop Loki from conquering Earth. As they learn to work together, they face an alien invasion that threatens humanity, leading to an epic battle in New York City.",
+            "subTitle": "2012 • 2h 23m • Action, Adventure, Sci-Fi",
+            "title": "",
+            "titleImg": "",
+            "type": "recommend",
+            "genre":"Action",
+            "trailer":"https://youtu.be/hA6hldpSTF8"
+        },
+        "21" :{
+            "backgroundImg": "https://calendarmedia.blob.core.windows.net/assets/d0b27807-14bd-434a-9e8b-9eeb4550705b.jpg",
+            "cardImg": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2019/07/mcuwas-made-civil-war.png",
+            "description": "A conflict arises among the Avengers when political pressure leads to the Sokovia Accords, dividing them into Team Captain America and Team Iron Man. As friendships are tested and new heroes emerge, a hidden conspiracy threatens to tear them apart.",
+            "subTitle": "2016 • 2h 27m • Action, Adventure, Sci-Fi",
+            "title": "",
+            "titleImg": "",
+            "type": "marvel",
+            "genre":"Action,Adventure",
+            "trailer":"https://youtu.be/43NWzay3W4s"
+        },
+        "22" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CD23BFF8AB733DC687DC58A26D99693E00FFF1D151BD13DAE97A9C528801E54F/scale?width=1200&aspectRatio=1.78&format=webp",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3421528F5E3679CEA7D89FE51BE6DE6904289364AD148688A2E236A340144BF6/scale?width=1200&aspectRatio=1.78&format=webp",
+            "description": "Tony Stark struggles with the consequences of revealing his identity as Iron Man. The government pressures him to hand over his technology, while a vengeful enemy, Whiplash, emerges. As his arc reactor slowly poisons him, he discovers a hidden legacy from his father. With the help of Black Widow and War Machine, he fights to protect his legacy. Stark must overcome his personal demons and embrace his role as a hero.",
+            "subTitle": "2010 • 2h 4m • Action, Adventure, Sci-Fi",
+            "title": "",
+            "titleImg": "",
+            "type": "marvel",
+            "genre":"Action",
+            "trailer":"https://youtu.be/BoohRoVA9WQ"
+        },
+        "23" :{
+            "backgroundImg": "https://ntvb.tmsimg.com/assets/p176337_v_h10_ab.jpg?w=1280&h=720",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7EA288FEA60B2461AF92FA4D9E8DB1952241C017931C94D4DF8E3E40BFC8BFCD/scale?width=1200&aspectRatio=1.78&format=webp",
+            "description": " Bruce Banner is on the run, searching for a cure to control his monstrous alter ego. While hiding, he experiments to suppress the Hulk but is tracked by the military. General Ross sends Emil Blonsky, who undergoes a transformation into the powerful Abomination. As chaos erupts, Banner must embrace the Hulk to stop Blonsky’s rampage. In the end, he learns to control his power and accept his true nature.",
+            "subTitle": "2008 • 1h 52m • Action, Adventure, Sci-Fi",
+            "title": "",
+            "titleImg": "",
+            "type": "marvel",
+            "genre":"Action",
+            "trailer":"https://youtu.be/xbqNb2PFKKA"
+        },
+        "24" :{
+            "backgroundImg": "https://i.ytimg.com/vi/7SlILk2WMTI/maxresdefault.jpg",
+            "cardImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeWgFStP-26olgFmsLr906dtuDHpf1f3xVFA&s",
+            "description": "Steve Rogers struggles to adjust to modern life while working for S.H.I.E.L.D. He uncovers a deadly conspiracy that threatens global security. With Black Widow and Falcon, he fights against Hydra's hidden forces. Meanwhile, he faces the mysterious Winter Soldier, a deadly assassin with a shocking past. As trust is shattered, Captain America must stand against corruption and betrayal.",
+            "subTitle": "2014 • 2h 16m • Action, Adventure, Thriller",
+            "title": "",
+            "titleImg": "",
+            "type": "marvel",
+            "genre":"Action",
+            "trailer":"https://youtu.be/7k_6NsYIipA"
+        },
+        "25" :{
+            "backgroundImg": "https://img33.tokyvideo.com/videos/355/355979/previews/previews_0012_custom_1697005439.4467.jpg",
+            "cardImg": "https://img.airtel.tv/unsafe/fit-in/1600x0/filters:format(webp)/https://xstreamcp-assets-msp.streamready.in/assets/SONYLIV_VOD/MOVIE/6485904d82488153bfe3e4e2/images/Spider_Man_Homecoming_Landscape_Thumb.jpg?o=production",
+            "description": "Spider-Man: Homecoming (2017)** – Peter Parker struggles to balance high school life and his role as Spider-Man. Under Tony Stark’s mentorship, he hopes to prove himself as a true hero. When the Vulture, a dangerous arms dealer, emerges, Peter takes matters into his own hands. His determination leads to a thrilling showdown that tests his limits. In the end, he learns that being a hero is about responsibility, not just power.",
+            "subTitle": "2017 • 2h 13m • Action, Adventure, Sci-Fi",
+            "title": "",
+            "titleImg": "",
+            "type": "recommend",
+            "genre":"Action",
+            "trailer":"https://youtu.be/U0D3AOldjMU"
+        },
+        "26" :{
+            "backgroundImg": "https://www.disneyphile.fr/wp-content/uploads/2024/01/wish-dvd-blu-ray.jpg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8C0F5BFB2F4784AC7DDC063292E863AC8672646748B4254746B616E2F7B25337/scale?width=506&aspectRatio=2.00&format=webp",
+            "description":"In the magical kingdom of Rosas, a young girl named Asha makes a heartfelt wish upon a star, only to have her wish answered in an unexpected way. She soon discovers that the star has come to life, leading her on an adventure to save her kingdom from a dark secret hidden by King Magnifico. With the power of hope and the magic of wishing, Asha and her friends embark on a journey to prove that one person’s wish can change the world.",
+            "subTitle": "2023 • 1h 35m • Animation, Fantasy, Musical",
+            "titleImg": "",
+            "type": "recommend",
+            "genre":"Adventure",
+            "trailer":"https://youtu.be/oyRxxpD3yNw"
+        },
+        "27" :{
+            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/784BE9CC660F87F7F510084C2F37262DB8DE860A8F790562EF4F6B753DC6FBDD/scale?width=1200&aspectRatio=1.78&format=webp",
+            "cardImg": "https://images.merstatic.com/imgcache/420x320/images/offer/2023/11/09//433465-Disney-Encanto-DVD_654cf9281df86.jpg",
+            "description":"Deep in the Colombian mountains, the Madrigal family lives in a magical house where every child is blessed with a unique gift—except for Mirabel. When she discovers that the magic protecting their home is fading, Mirabel embarks on a journey to save her family, proving that true strength comes from within.",
+            "subTitle": "2021 • 1h 42m • Animation, Family, Fantasy",
+            "titleImg": "",
+            "type": "recommend",
+            "genre":"Animation",
+            "trailer":"https://youtu.be/CaimKeDcudo"
+        },"28" :{
+            "backgroundImg": "https://honestlyadoption.com/wp-content/uploads/2020/03/onward.jpeg",
+            "cardImg": "https://writedrunkeditdrunk.com/wp-content/uploads/2020/04/onward-5e2c7c2777a30.jpg",
+            "description":"In a modern fantasy world where magic has faded, two teenage elf brothers, Ian and Barley Lightfoot, embark on a quest to bring their late father back for one more day. Armed with a magical staff and an incomplete spell, they face unexpected challenges, mythical creatures, and the power of brotherhood on their extraordinary journey.",
+            "subTitle": "2020 • 1h 42m • Animation, Adventure, Fantasy",
+            "titleImg": "",
+            "type": "recommend",
+            "genre":"Animation",
+            "trailer":"https://youtu.be/gn5QmllRCn4"
+
+        },"29" :{
+            "backgroundImg": "https://ntvb.tmsimg.com/assets/p14596224_v_h10_al.jpg?w=1280&h=720",
+            "cardImg": "https://www.rotoscopers.com/wp-content/uploads/2019/05/Aladdin-2019-banner.jpg",
+            "description":"A kind-hearted street thief, Aladdin, stumbles upon a magical lamp that houses a powerful and witty Genie. With the Genie’s help, he transforms into a prince to win the heart of Princess Jasmine. But when the evil sorcerer Jafar seeks the lamp’s power for himself, Aladdin must find the courage to embrace his true self and save the kingdom of Agrabah.",
+            "subTitle": "2019 • 2h 8m • Adventure, Fantasy, Romance",
+            "titleImg": "",
+            "type": "recommend",
+            "genre":"Adventure",
+            "trailer":"https://youtu.be/foyufD52aog"
+        },"30" :{
+            "backgroundImg":"https://musicart.xboxlive.com/7/d4705100-0000-0000-0000-000000000002/504/image.jpg",
+            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CA109594606E98B6F02C0DF6DC70E11810069FED7620C861B1C663F5FACEF3ED/scale?width=1200&aspectRatio=1.78&format=webp",
+            "description":"In the mystical Scottish Highlands, Princess Merida defies tradition and refuses to be bound by an arranged marriage. Determined to carve her own path, she seeks help from an eccentric witch, but a misguided wish unleashes chaos upon her kingdom. Now, Merida must rely on her bravery and archery skills to break a powerful curse and discover the true meaning of courage.",
+            "subTitle":"2012 • 1h 33m • Animation, Adventure, Fantasy",
+            "titleImg": "",
+            "type": "recommend",
+            "genre":"Animation",
+            "trailer":"https://youtu.be/TEHWDA_6e3M"
+        }
+
+    }
+}
+          
+
+    
